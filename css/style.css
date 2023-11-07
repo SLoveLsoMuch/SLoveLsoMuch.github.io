@@ -1,12 +1,54 @@
 section{
-    width: 70%;
     margin: auto;
-    height: 50vh;
-    overflow: hidden;
     border: 5px solid red;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 #demo{
     width: 100%;
     height: 100%;
+}
+
+
+@keyframes sliding1 {
+    from{
+        transform: translateX(200%);
+        -webkit-transform: translateX(200%);
+        -moz-transform: translateX(200%);
+        -ms-transform: translateX(200%);
+        -o-transform: translateX(200%);
+    }
+}
+
+@keyframes sliding2 {
+    from{
+        transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+}
+}
+
+@keyframes sliding3 {
+    from{
+        transform: translateY(200%);
+        -webkit-transform: translateY(200%);
+        -moz-transform: translateY(200%);
+        -ms-transform: translateY(200%);
+        -o-transform: translateY(200%);
+}
+}
+
+.sliding{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
 }
