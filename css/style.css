@@ -1,9 +1,9 @@
 section{
     width: 70%;
     margin: auto;
-    background-color: brown;
-    height: 100vh;
+    height: 50vh;
     overflow: hidden;
+    border: 5px solid red;
 }
 
 #demo{
