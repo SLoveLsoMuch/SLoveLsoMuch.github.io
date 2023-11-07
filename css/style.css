@@ -51,4 +51,17 @@ section{
     position: absolute;
     z-index: 1;
     text-align: center;
+    color: #fff;
+}
+
+.left{
+    animation-name: sliding1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.right{
+    animation-name: sliding2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 }
