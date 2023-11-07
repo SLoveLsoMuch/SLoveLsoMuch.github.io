@@ -52,11 +52,12 @@ section img{
 .sliding{
     z-index: 1;
     text-align: center;
-    color: red;
+    color: #fff;
 }
 
 h1 {
-    text-shadow: 1px 1px #fcf9f9;
+    text-shadow: 2px 2px rgb(247, 8, 8);
+    font-weight: 900;
 }
 
 .left{
